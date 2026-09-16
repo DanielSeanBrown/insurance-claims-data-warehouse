@@ -93,7 +93,6 @@ def policy_data(customers):
 
     return pd.DataFrame(policy_dict)
 
-
 def claim_data(policies):
     """Simulate claim data.
 
@@ -193,7 +192,7 @@ def transaction_data(payments):
 
     return pd.DataFrame(transactions_dict)
 
-def main(num_customers=10000, save_path="data/simulated_data.csv"):
+def main(num_customers=10000, save_path="data/raw/simulated_data.csv"):
 
     logger.info(f"Simulating data for data warehouse")
 

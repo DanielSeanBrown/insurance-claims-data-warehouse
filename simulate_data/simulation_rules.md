@@ -52,9 +52,11 @@ A policy's monthly premium rate is selecetd as a discrete uniform distribution o
 ### Policy Status
 A policy's status is either active or cancelled with ratio (7:2) using dicrete random uniform sampling.
 
+
 ## Claims Data
 
 
-
-
 ## Payment Data
+
+
+## Transaction Data
